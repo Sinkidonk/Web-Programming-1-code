@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6699ff;
+    color: #d5e3ff;
+   /* font-family: Verdana, Arial, sans-serif; */
+    background-image: url(assets/gradientblue.jpg)
+}
+
+header{
+    background-color: #6699ff;
+    color: #ffffff;
+    font: sans-serif;
+    color: #000066;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+    line-height: 150%;
+    text-shadow: 5px 5px 5px #cccccc;
+}
+
+nav{
+    font-weight: bold;
+    float: left;
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.category {
+    font-weight: bold;
+    background-color: #6699ff;
+    color: #fff;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 1px #667;
+}
+
+footer{
+    font-size: 0.70em;
+    font-style: italic;
+    padding: 10px 10px 10px 10px;
+    margin-left: 180px;
+}
+
+#wrapper{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    background-color: #fff;
+    color: #000066
+    
+}
+
+img {
+    border-style: none;
+}
+
+footer nav{
+    text-align: left;
+}
+
+a:link {
+    color: #3262a3;
+}
+
+a:visited {
+    color: #6699ff;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+main {
+    margin-left: 180px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+header, nav, main, footer {display: block}

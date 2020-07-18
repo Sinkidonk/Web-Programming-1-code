@@ -1,0 +1,46 @@
+
+div.body {
+	display: block;
+	padding-left:5%;
+	padding-right:5%;
+	border-style: solid;
+	border-color:red;
+	background-color:green;
+	font-size:40px;
+}
+
+div.webmenu {
+	display: block;
+	border-color:purple;
+	border-style: solid;
+	background-color:blue;
+
+}
+
+div.webmenu p {
+	font-size:20px;
+	padding-left:5%;
+	padding-right:5%px;
+}
+
+div.webmenu a {
+	color:white;
+	font-weight:bold
+}
+
+div.secondpage {
+	display: block;
+	padding-left:5%;
+	padding-right:5%;
+	border-style: solid;
+	background-color:red;
+	
+}
+
+div.secondpage p {
+	font-size:40px;
+}
+
+img {
+	width:60%;
+}

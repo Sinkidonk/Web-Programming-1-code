@@ -1,0 +1,84 @@
+body{
+    background-image: url("assets/background.gif");
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+h1{
+   /* background-color: #D2B48C;*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-top-color: #221811;
+    border-top-style: solid;
+
+}
+
+#wrapper{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #fef6c2;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+header{
+    height: 150px;
+    background-image: url("assets/javajamlogo.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+   /* background-size: 150px; */
+    background-color: #D2B48C
+
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.details{
+    padding-left:20%;
+    padding-right:20%;
+    height: 80px;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

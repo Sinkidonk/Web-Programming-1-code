@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<style>
+ form {
+ background: #eee;
+ font-family: Segoe;
+ }
+ 
+ input {
+ padding: 5px;
+ color: red;
+ border: green 5px solid;
+ border-radius: 15px;
+ }
+</style>
+
+</head>
+<body>
+<form id="contactform" name="contactform" method="post" action="thankyou.html" > <!-- metod="get" --> 
+    First Name:<input type="text" name="firstname"  id="firstname" placeholder="First Name"><br> <br> <!-- size="5" value="hello" -->
+	
+	Last Name:<input type="text" name="lastname"  id="lastname" value="fhye" required><br> <br> <!-- size="5" -->
+	
+	
+	
+	<label for="email">E-mail:</label> <input type="text" name ="email"  id="email" value="fhye" accesskey="X"><br> <br> <!-- maxlength="5" size="5" -->
+	Enter Your Comments:<br>
+	<textarea id="comments" name="comments" cols="30" rows="10">Hi</textarea><br>
+	
+	Password: <input type="password"><br>
+	Select browsers you have used:<br>
+	<input type="checkbox" name="egde" id="edge" value="edge">Edge<br>
+	<input type="checkbox" name="chrome" id="chrome" value="chrome">Chrome<br>
+	<input type="checkbox" name="firefox" id="firefox" value="firefox">Firefox<br>
+	<input type="checkbox" name="opera" id="opera" value="opera">Opera<br>
+	<br> <br>
+	Select your favorite browser:<br>
+	<input type="radio" name="best" id="best" value="Edge">Edge<br>
+	<input type="radio" name="best" id="best" value="Chrome" checked>Chrome<br>
+	<input type="radio" name="best" id="best" value="Firefox">Firefox<br>
+	<input type="radio" name="best" id="best" value="Opera">Opera<br>	
+
+	<br> <br>
+	<select>
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="mercedes">Mercedes</option>
+		<option value="audi" selected>Audi</option>
+	</select> 
+<br><br>
+
+<button type="submit">Click Me</button>
+<fieldset><legend>Customer Information</legend>
+   <label>Name:<input type="text" name="Name" id="Name“></label><br><br>
+   <label>Email: <input type="text" name="Email" id="Email"></label>
+ </fieldset>
+
+	
+	<input type="submit" value="Contact">
+	<input type="reset"> 
+	
+</form>
+
+
+</body>
+</html>	

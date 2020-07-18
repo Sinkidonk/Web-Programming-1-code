@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<title>forms page</title>
+	<meta charset="utf-8">
+	<style>
+		form {
+			background: #eee;
+			font-family: Segoe;
+			
+			}
+		input {
+			padding: 5px;
+			color:red;
+			border: green 5px solid;
+			border-radius: 15px;
+		}
+	</style>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form id="contactform" name="contactform" method="post" action="mailto:asdfasdf@asdf.com"> 
+<fieldset><legend>Customer Information</legend>
+<input type="search" placeholder="search"><br>
+    <input type="text" name="firstname" id="firstname" placeholder="First Name"><br> <br>
+	
+	Last Name: <br><input type="text" name="lastname" id="lastname" required><br> <br>
+	<label for="email">Email: </label><input type="email" name="CustEmail" id= "email" accesskey="D"> 
+	<br> <br> 
+	Comments:<br>
+	<textarea id="comments" name="comments" cols="30" rows="10"></textarea>
+	<br><br> 
+	Password: <input type="password">
+	<br><br> 
+	Select browsers you have used:<br>
+	<input type="checkbox" name="edge" id="edge" value="edge">Edge<br>
+	<input type="checkbox" name="chrome" id="chrome" value="chrome" checked>Chrome<br>
+	<input type="checkbox" name="Firefox" id="Firefox" value="Firefox">Firefox<br>
+	<input type="checkbox" name="opera" id="opera" value="opera">Opera
+	<br><br> 
+	Select your favorite browser:<br>
+	<input type="radio" name="best" id="best" value="Edge">Edge<br>
+	<input type="radio" name="best" id="best" value="Chrome">Chrome<br>
+	<input type="radio" name="best" id="best" value="Firefox">Firefox<br>
+	<input type="radio" name="best" id="best" value="Opera">Opera<br>
+	<br><br>
+	<select>
+	  <option value="volvo">Volvo</option>
+	  <option value="saab">Saab</option>
+	  <option value="mercedes">Mercedes</option>
+	  <option value="audi"  selected>Audi</option>
+	</select><br><br>
+	<input type="date" name="myDate" id="myDate"> 
+<br><br>
+<label for="myChoice">
+Choose a number between 1 and 100:</label><br>
+Low <input type="range"         name="myChoice"         id="myChoice"         min="1"       max="100"> High
+<br><br>
+    <button type="submit">Click Me</button>
+	<input type="submit" value="Contact" >	<input type="reset"> 
+	</fieldset>
+</form>
+
+</body>
+</html>

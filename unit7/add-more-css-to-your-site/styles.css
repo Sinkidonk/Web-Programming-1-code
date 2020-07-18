@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: dimgray;
+    min-width: 20%;
+    max-width: 80%;
+    padding: 1em 1em 1em 1em;
+}
+
+body {
+    background-color: black;
+    font-family: arial, sans-serif;
+}
+
+img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    width: 200px;
+    height: 241px;
+}
+
+mark {
+    background-color: green;
+}
+
+header h1 {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 70%;
+    min-width: 10%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    font-family: Impact, fantasy;
+}
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    clear: left;
+    /*	margin: 1em 1em 1em 1em;*/
+}
+
+nav ul {
+    margin: auto;
+    width: 91%;
+    /*
+    min-width: 10px;
+;
+    max-width: 1000px;
+    */
+}
+
+nav li {
+    border: 5px solid lightgray;
+    /*
+    border-width: 5px;
+    border-style: solid;
+    background-color: black;
+*/
+    float: left;
+    background-color: black;
+
+    list-style-type: none;
+    text-align: center
+}
+
+nav li:hover {
+    background-color: lightgray;
+    border-color: black;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    padding: 10px;
+    width: 120px;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+code {
+    font-family: monaco, monospace;
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gray;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 1em 1em 1em 1em;
+    clear: left;
+}
+
+code {
+    background-color: darkgray;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+form {
+    border-width: 5px;
+    border-style: solid;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 2em;
+}
+iframe {
+    border-style: none;
+}
+
+input[type=text],[type=email],[type=time],[type=search],[type=date] {
+    max-width: 100%;
+    width: 140px;
+    min-width: 10%;
+    color: black;
+    background-color: darkgray;
+    border-radius: 0.5em;
+    border-bottom-style: ridge;
+    border-color: darkgray;
+    border-width: 4px;
+    padding: 3px;
+    margin: 5px;
+}
+
+input[type=submit],input[type=reset] {
+    background-color: darkgrey;
+    border: 5px solid lightgray;
+    width: 90px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+input[type=submit]:hover,[type=reset]:hover {
+    background-color: lightgray;
+    border-color: darkgrey;
+}
+
+
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 2em;
+    }
+}
